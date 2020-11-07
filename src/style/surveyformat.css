@@ -1,0 +1,36 @@
+.surveyformat {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.personal {
+  display: flex;
+  flex-direction: column;
+}
+.qcontentcontainer {
+  height: 20%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personal > * {
+  margin: 5px 0;
+}
+.qcontent {
+  margin: 0;
+  text-align: center;
+}
+.buttons {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+.choice {
+  width: 45%;
+  height: 35%;
+}
