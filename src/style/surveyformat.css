@@ -4,19 +4,12 @@
   display: flex;
   flex-direction: column;
 }
-.personal {
-  display: flex;
-  flex-direction: column;
-}
 .qcontentcontainer {
   height: 20%;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.personal > * {
-  margin: 5px 0;
 }
 .qcontent {
   margin: 0;

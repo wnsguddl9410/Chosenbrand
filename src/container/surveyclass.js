@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Answerclass from'./answerclass';
 
 class surveyclass extends Component 
 {
