@@ -10,7 +10,7 @@ class question extends Component {
         start2:true,
         num:0,
         name:"",
-        age:0,
+        age: '',
         gender:0,
         
         namchin:0,
@@ -48,20 +48,35 @@ class question extends Component {
     {
            this.setState({[e.target.name]: e.target.value});
     }
+    changegender=(e)=>{
 
+        this.setState({gender : e.target.value});
+    }
 
     nextq=()=>{
         console.log(this.state);
         this.setState({num: this.state.num+1});
     }
 
-
+    // showbutton=()=>{
+    //      alert(this.state.num);
+    //      if(this.state.num<2)
+         
+    //         return (<button onClick={this.nextq} className="btnnext">Next</button>);
+    // }
 
     render() 
     {
 
 
-        const {start,num,name,age,gender}=this.state
+        const {start,num,name,age,gender,namchin,rock,
+            luxury,
+            ameca,
+            casual,
+            street}=this.state
+
+        
+
 
         return(
             
@@ -76,6 +91,7 @@ class question extends Component {
                 (num==0)?
                 (<div className="Personal">
                 <form className="personal" onSubmit={this.handlePersonal}>
+
                     <div className="qcontentcontainer"><p className="qcontent">당신에 대해서 알려주세요</p></div>
                 <div><label for="name"> 이름 : </label> 
                 <input type="text" 
@@ -92,11 +108,15 @@ class question extends Component {
                         value={this.state.age}/>
                 </div>
                     <div><label for="gender"> 성별 : </label> 
-                <input type="text" 
+                    
+                Male<input type="radio" id="gender" name="gender" onClick={this.changegender} value='1'/>
+                Female<input type="radio" id="gender" name="gender" onClick={this.changegender} value='0'/>
+               
+                {/* <input type="checkbox" 
                         id='gender' 
                         name='gender'
                         onChange={this.handleChange}
-                        value={this.state.gender}/>
+                        value={this.state.gender}/> */}
                 </div>
                     <button type="submit" >등록</button>
                 </form>
@@ -106,10 +126,13 @@ class question extends Component {
 :
                 (
                 <div className="surveycontainer">
-                <Survey onCreate={this.handleCreate} qnum={num} />
-                <button onClick={this.nextq} className="btnnext">Next</button>
+                <Survey onCreate={this.handleCreate} onChange={this.nextq} qnum={num} />
+              
+                {/* {num<1 && <button onClick={this.nextq} className="btnnext">Next</button> } */}
+              
                 
-                이름 : {name}, 나이 : {age}, 성별 : {gender}
+                이름 : {name}, 나이 : {age}, 성별 : {gender}, NUM : {num},
+                남친 : {namchin}, 락 : {rock}, 럭셔리 : {luxury}, 아메카지 : {ameca}, 캐쥬얼 : {casual}, 스트릿 : {street}
                 </div>
                 )}
                 
