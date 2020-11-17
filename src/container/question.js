@@ -1,7 +1,7 @@
 import React, {Fragment, Component } from 'react';
 import '../style/question.css';
 import Survey from './surveyformat';
-
+import Result from './result'
 class question extends Component {
 
 
@@ -12,7 +12,6 @@ class question extends Component {
         name:"",
         age: '',
         gender:0,
-        
         namchin:0,
         rock:0,
         luxury:0,
@@ -46,7 +45,9 @@ class question extends Component {
 
     handleChange= (e)=>
     {
-           this.setState({[e.target.name]: e.target.value});
+        //    this.setState({[e.target.name]: e.target.value});
+        this.setState((state)=> { 
+            return {[e.target.name] : e.target.value} });
     }
     changegender=(e)=>{
 
@@ -54,9 +55,10 @@ class question extends Component {
     }
 
     nextq=()=>{
-        console.log(this.state);
+        // console.log(this.state);
         this.setState({num: this.state.num+1});
     }
+
 
     // showbutton=()=>{
     //      alert(this.state.num);
@@ -64,6 +66,7 @@ class question extends Component {
          
     //         return (<button onClick={this.nextq} className="btnnext">Next</button>);
     // }
+
 
     render() 
     {
@@ -74,7 +77,6 @@ class question extends Component {
             ameca,
             casual,
             street}=this.state
-
         
 
 
@@ -123,7 +125,7 @@ class question extends Component {
              
                 </div>
         )
-:
+:(num<4)?
                 (
                 <div className="surveycontainer">
                 <Survey onCreate={this.handleCreate} onChange={this.nextq} qnum={num} />
@@ -134,7 +136,11 @@ class question extends Component {
                 이름 : {name}, 나이 : {age}, 성별 : {gender}, NUM : {num},
                 남친 : {namchin}, 락 : {rock}, 럭셔리 : {luxury}, 아메카지 : {ameca}, 캐쥬얼 : {casual}, 스트릿 : {street}
                 </div>
-                )}
+                )
+            :(    
+            <Result value={this.state}/>
+            )
+            }
                 
             </div>
         );
