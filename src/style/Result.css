@@ -2,3 +2,30 @@
   margin: 0;
   padding: 0;
 }
+.resultified {
+  font-family: "Do Hyeon";
+  height: 100%;
+  width: 100%;
+  font-size: 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.brand {
+  color: rgba(0, 0, 0, 0.466);
+  width: min-content;
+  white-space: nowrap;
+  background-color: rgba(59, 255, 20, 0.829);
+  border-radius: 20px;
+}
+.Results {
+  height: 100%;
+}
+.Points {
+  color: white;
+  font-size: 5px;
+  position: absolute;
+  bottom: 10px;
+  left: 48vw;
+}
