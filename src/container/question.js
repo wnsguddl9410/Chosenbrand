@@ -71,7 +71,6 @@ class question extends Component {
     render() 
     {
 
-
         const {start,num,name,age,gender,namchin,rock,
             luxury,
             ameca,
@@ -83,18 +82,18 @@ class question extends Component {
         return(
             
             <div className="question">
-                
-                {start?(
+
+                {
+start?(
                 <div className="firstq">
                 <p>내 성향에 어울리는 <br/>패션브랜드 알아보기</p>
                 <button onClick={this.startquiz} className="start">시작</button>
                 </div>
-                ):
-                (num==0)?
+) : (num==0)?
                 (<div className="Personal">
                 <form className="personal" onSubmit={this.handlePersonal}>
 
-                    <div className="qcontentcontainer"><p className="qcontent">당신에 대해서 알려주세요</p></div>
+                <div className="qcontentcontainer"><p className="qcontent">당신에 대해서 알려주세요</p></div>
                 <div><label for="name"> 이름 : </label> 
                 <input type="text" 
                         id="name"  
@@ -113,7 +112,7 @@ class question extends Component {
                     
                 Male<input type="radio" id="gender" name="gender" onClick={this.changegender} value='1'/>
                 Female<input type="radio" id="gender" name="gender" onClick={this.changegender} value='0'/>
-               
+              
                 {/* <input type="checkbox" 
                         id='gender' 
                         name='gender'
@@ -124,25 +123,32 @@ class question extends Component {
                 </form>
              
                 </div>
-        )
-:(num<4)?
-                (
+)
+:(num<9)?
+(
+            
                 <div className="surveycontainer">
                 <Survey onCreate={this.handleCreate} onChange={this.nextq} qnum={num} />
-              
-                {/* {num<1 && <button onClick={this.nextq} className="btnnext">Next</button> } */}
-              
-                
+
                 이름 : {name}, 나이 : {age}, 성별 : {gender}, NUM : {num},
                 남친 : {namchin}, 락 : {rock}, 럭셔리 : {luxury}, 아메카지 : {ameca}, 캐쥬얼 : {casual}, 스트릿 : {street}
                 </div>
-                )
-            :(    
+):
+
+(    
             <Result value={this.state}/>
-            )
+)
+            
             }
-                
+
+
+
+
+
+
+
             </div>
+        
         );
 
 

@@ -1,19 +1,7 @@
 import React, { Component } from 'react';
 
 class surveyclass extends Component 
-{
-    // state={
-    //     name:"",
-    //     age:0,
-    //     gender:0,
-    //     namchin:0,
-    //     rock:0,
-    //     luxury:0,
-    //     ameca:0,
-    //     casual:0,
-    //     street:0,
-    // }
-    name="";
+{   name="";
     age=0;
     gender=0;
     namchin=0;
