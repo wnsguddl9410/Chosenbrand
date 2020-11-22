@@ -13,7 +13,7 @@ state={
     {
       let  brandlist=
     [ 
-/*namchin*/ [{name:"훈훈한하고 다정다감한"},{name:"Tonywack"},{name:"Ami"},{name:"커버낫"},{name:"MMLG"},{name:"인사일런스"},{name: "Acne Studios"}],
+/*namchin*/ [{name:"훈훈한하고 다정다감한"},{name:"Tonywack"},{name:"Ami"},{name:"커버낫"},{name:"MMLG"},{name:"아이앱 스튜디오"},{name: "Acne Studios"}],
 /*rock*/    [{name:"벨리에"},{name:"시크하고 강렬한"},{name:"셀린느"},{name:"벌스데이수트"},{name:"withlaugher"},{name:"롤링 스튜디오"},{name: "XCX-Main"}], 
 /*luxury*/  [{name:"Gucci"},{name:"Saint Laurent"},{name:"고급스럽고 럭셔리한"},{name:"Needles"},{name:"Moschino"},{name:"Off-White"},{name: "Maison Margiela"}],
 /*ameca*/   [{name:"유니폼브릿지"},{name:"ArtifActs"},{name:"비즈빔"},{name:"푸근하고 지적인"},{name:"캉골"},{name:"비슬로우 퍼플"},{name: "농담"}],   //비즈빔 엔가 텐더로인
