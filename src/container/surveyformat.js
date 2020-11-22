@@ -120,14 +120,13 @@ class surveyformat extends Component {
                 {namchin: 4, rock: 2, luxury: 3, ameca: 2, casual: 3, street:4, funky: 2},
                 {namchin: 2, rock: 3, luxury: 3, ameca: 4, casual: 3, street:2, funky: 3},
                 {namchin: 4, rock: 4, luxury: 4, ameca: 3, casual: 3, street:3, funky: 5},
-    ],//                 106      103        108       104       108        109       103
+    ],//                 106      103        108       104       108        110       103
 
               ];
 
               
 
     handleSubmit = (qnum,sel) => {
-        console.log("qlistval[qnum-1][sel] is   "+ this.qlistval[0][0].namchin);
         this.props.onCreate(this.qlistval[qnum-1][sel]);
         this.props.onChange();
     }

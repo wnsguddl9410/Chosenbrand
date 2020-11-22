@@ -1,4 +1,4 @@
-import React, {Fragment, Component } from 'react';
+import React, {Component } from 'react';
 import '../style/question.css';
 import Survey from './surveyformat';
 import Result from './result'
@@ -77,7 +77,7 @@ start?(
                 <button onClick={this.startquiz} className="start">시작</button>
                 <p className="me">이준형 made</p>
                 </div>
-) : (num==0)?
+) : (num===0)?
                 (<div className="Personal">
                 <form className="personal" onSubmit={this.handlePersonal}>
 

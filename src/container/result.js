@@ -16,7 +16,7 @@ state={
 /*namchin*/ [{name:"훈훈한하고 다정다감한"},{name:"Tonywack"},{name:"Ami"},{name:"커버낫"},{name:"MMLG"},{name:"아이앱 스튜디오"},{name: "Acne Studios"}],
 /*rock*/    [{name:"벨리에"},{name:"시크하고 강렬한"},{name:"셀린느"},{name:"벌스데이수트"},{name:"withlaugher"},{name:"롤링 스튜디오"},{name: "XCX-Main"}], 
 /*luxury*/  [{name:"Gucci"},{name:"Saint Laurent"},{name:"고급스럽고 럭셔리한"},{name:"Needles"},{name:"Moschino"},{name:"Off-White"},{name: "Maison Margiela"}],
-/*ameca*/   [{name:"유니폼브릿지"},{name:"ArtifActs"},{name:"비즈빔"},{name:"푸근하고 지적인"},{name:"캉골"},{name:"비슬로우 퍼플"},{name: "농담"}],   //비즈빔 엔가 텐더로인
+/*ameca*/   [{name:"Polo Ralph Lauren"},{name:"ArtifActs"},{name:"Visvim"},{name:"푸근하고 지적인"},{name:"캉골"},{name:"비슬로우 퍼플"},{name: "농담"}],   //비즈빔 엔가 텐더로인
 /*casual*/  [{name:"무신사 스탠다드"},{name:"ZARA"},{name:"COS"},{name:"비슬로우 스탠다드"},{name:"편안하고 나대지않는"},{name:"휠라"},{name: "랩101"}],   
 /*street*/  [{name:"알렌느"},{name:"메종미네드"},{name:"BAPE"},{name:"블라인드파일즈"},{name:"LMC"},{name:"힙하고 트렌디한"},{name: "해피피플갤러리"}],    
 /*funky*/   [{name:"앤더슨벨"},{name: "Vivienne Westwood"},{name: "Martine Rose"},{name: "리트"},{name:"로맨틱크라운"},{name: "SKOOT APPAREL"},{name:"톡톡튀는 4차원의"}],
@@ -123,6 +123,7 @@ state={
         case 4: {k[2]="주위사람을 편안하게 만드는 사람이네요.";break;}
         case 5: {k[2]="힙하고 트렌디한 면모가 있네요.";break;}
         case 6: {k[2]="통통튀는 4차원의 사람이네요.";break;}
+        default: {k[2]="오류가 떠서 어떤사람인지 당최 모르겠네요ㅠㅠ";break;}
     }
 return <div className="resultified"><div>{brandlist[(k[0])][(k[0])].name} 성향을 가진 당신,<br/> {k[2]}</div><div className="resultified2"><div>당신에게 어울리는 브랜드는</div><div className="brand">"{(brandlist[k[0]][k[1]]).name}"</div><div> 입니다.</div></div></div>
 
@@ -130,7 +131,7 @@ return <div className="resultified"><div>{brandlist[(k[0])][(k[0])].name} 성향
     
 PrintResult=()=>
     {
-        let {name,age,gender,namchin,rock,luxury,ameca,casual,street,funky}=this.props.value;
+        let {namchin,rock,luxury,ameca,casual,street,funky}=this.props.value;
         function compare(a,b){
             return (a.value-b.value);
         }
