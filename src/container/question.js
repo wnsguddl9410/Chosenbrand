@@ -84,14 +84,16 @@ start?(
                 <div><label for="name"> 이름 : </label> 
                 <input type="text" 
                         id="name"  
-                        name='name'    
+                        name='name'
+                        placeholder="안써도"    
                         onChange={this.handleChange}  
                         value={this.state.name}/> 
                 </div>
                     <div><label for="age"> 나이 : </label> 
-                <input type="text" 
+                <input type="text"
                         id='age' 
                         name='age'  
+                        placeholder="됩니다"
                         onChange={this.handleChange}  
                         value={this.state.age}/>
                 </div>
