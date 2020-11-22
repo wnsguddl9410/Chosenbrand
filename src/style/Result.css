@@ -24,6 +24,7 @@
 .brand {
   color: rgba(0, 0, 0, 0.466);
   min-width: 60%;
+  font-family: "Do Hyeon";
   font-size: 1.2em;
   white-space: nowrap;
   background-color: rgba(59, 255, 20, 0.829);
@@ -59,6 +60,6 @@
 @media only screen and (max-width: 768px) {
   .resultified {
     /* border-left: solid 5px; */
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 }

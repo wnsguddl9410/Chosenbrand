@@ -5,6 +5,9 @@
   background-color: whitesmoke;
   border-radius: 20px;
 }
+.question > p {
+  font-family: "Do Hyeon";
+}
 .firstq {
   display: flex;
   flex-direction: column;
