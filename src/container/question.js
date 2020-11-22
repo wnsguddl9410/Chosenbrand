@@ -62,7 +62,7 @@ class question extends Component {
     render() 
     {
 
-        const {start,num,name,age,gender,namchin,rock,luxury,ameca,casual,street,funky}=this.state
+        const {start,num}=this.state
         
 
 

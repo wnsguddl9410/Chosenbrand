@@ -150,7 +150,6 @@ showresult=()=>{
     render() {
         const {on} =this.state;
           
-        const {name,age,gender,namchin,rock,luxury,ameca,casual,street,funky}=this.props.value;
         console.log(this.props.value);
         
 
