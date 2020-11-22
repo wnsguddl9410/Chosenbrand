@@ -75,6 +75,7 @@ start?(
                 <div className="firstq">
                 <p>내 성향에 어울리는 <br/>패션브랜드 알아보기</p>
                 <button onClick={this.startquiz} className="start">시작</button>
+                <p className="me">이준형made</p>
                 </div>
 ) : (num==0)?
                 (<div className="Personal">

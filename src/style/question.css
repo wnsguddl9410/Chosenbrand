@@ -5,6 +5,10 @@
   background-color: whitesmoke;
   border-radius: 20px;
 }
+.firstq > p.me {
+  margin-top: 10%;
+  font-size: 1vw;
+}
 .question > p {
   font-family: "Do Hyeon";
 }
@@ -86,7 +90,10 @@
   .firstq > p {
     font-size: 9vw;
   }
-
+  .firstq > p.me {
+    margin-top: 10%;
+    font-size: 3vw;
+  }
   .start {
     width: 30%;
     font-size: 1em;
