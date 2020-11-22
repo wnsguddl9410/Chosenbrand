@@ -1,0 +1,8 @@
+.pointified {
+  width: 30%;
+  border-right: 10px;
+}
+.pointified * {
+  margin: 0;
+  padding: 0;
+}

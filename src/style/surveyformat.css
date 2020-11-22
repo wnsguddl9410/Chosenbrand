@@ -13,7 +13,10 @@
 }
 .qcontent {
   margin: 0;
+  padding-top: 5%;
   text-align: center;
+  font-family: "Do Hyeon";
+  font-size: 1.5em;
 }
 .buttons {
   width: 100%;
@@ -26,4 +29,20 @@
 .choice {
   width: 45%;
   height: 35%;
+  outline: none;
+}
+@media only screen and (max-width: 768px) {
+  .choice {
+    width: 45%;
+    height: 30%;
+    font-size: 80%;
+    word-break: keep-all;
+    border-radius: 20px;
+  }
+
+  .qcontent {
+    padding: 10% 3% 0 3%;
+    word-break: keep-all;
+    font-size: 1.2em;
+  }
 }

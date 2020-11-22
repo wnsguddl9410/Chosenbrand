@@ -3,10 +3,19 @@
   padding: 0;
 }
 .resultified {
+  word-break: keep-all;
   font-family: "Do Hyeon";
   height: 100%;
+  /* width: 70%; */
   width: 100%;
   font-size: 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border-left: solid 12px; */
+}
+.resultified2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,12 +23,18 @@
 }
 .brand {
   color: rgba(0, 0, 0, 0.466);
-  width: min-content;
+  min-width: 60%;
+  font-size: 1.2em;
   white-space: nowrap;
   background-color: rgba(59, 255, 20, 0.829);
   border-radius: 20px;
 }
 .Results {
+  height: 100%;
+  display: flex;
+}
+.Results2 {
+  width: 100%;
   height: 100%;
 }
 .Points {
@@ -28,4 +43,16 @@
   position: absolute;
   bottom: 10px;
   left: 48vw;
+}
+.noton {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .resultified {
+    /* border-left: solid 5px; */
+    font-size: 1.3em;
+  }
 }

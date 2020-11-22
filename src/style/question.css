@@ -3,6 +3,7 @@
   height: 100%;
   font-size: 20px;
   background-color: whitesmoke;
+  border-radius: 20px;
 }
 .firstq {
   display: flex;
@@ -68,4 +69,28 @@
 .qcontent {
   margin: 0;
   text-align: center;
+}
+.next {
+  margin-top: 20px;
+  min-width: 40px;
+  width: 10%;
+  height: 12%;
+  border-radius: 20px;
+  outline: none;
+  font-size: 2vw;
+}
+@media only screen and (max-width: 768px) {
+  .firstq > p {
+    font-size: 9vw;
+  }
+
+  .start {
+    width: 30%;
+    font-size: 1em;
+  }
+  .next {
+    width: 20vw;
+    height: 5vh;
+    font-size: 3vw;
+  }
 }

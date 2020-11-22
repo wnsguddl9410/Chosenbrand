@@ -18,19 +18,18 @@ class question extends Component {
         ameca:0,
         casual:0,
         street:0,
+        funky:0,
     };
 
     handleCreate=(data)=>
        { 
-        console.log(this.state.namchin);
-        console.log(data.namchin);
         this.setState({namchin: this.state.namchin + data.namchin});
-        console.log(this.state.namchin);
         this.setState({rock: this.state.rock + data.rock});
         this.setState({luxury: this.state.luxury + data.luxury});
         this.setState({ameca: this.state.ameca + data.ameca});
         this.setState({casual: this.state.casual + data.casual});
         this.setState({street: this.state.street + data.street});
+        this.setState({funky: this.state.funky + data.funky});
     }
     
 
@@ -60,22 +59,10 @@ class question extends Component {
     }
 
 
-    // showbutton=()=>{
-    //      alert(this.state.num);
-    //      if(this.state.num<2)
-         
-    //         return (<button onClick={this.nextq} className="btnnext">Next</button>);
-    // }
-
-
     render() 
     {
 
-        const {start,num,name,age,gender,namchin,rock,
-            luxury,
-            ameca,
-            casual,
-            street}=this.state
+        const {start,num,name,age,gender,namchin,rock,luxury,ameca,casual,street,funky}=this.state
         
 
 
@@ -119,7 +106,7 @@ start?(
                         onChange={this.handleChange}
                         value={this.state.gender}/> */}
                 </div>
-                    <button type="submit" >등록</button>
+                    <button className="next" type="submit" >Next</button>
                 </form>
              
                 </div>
@@ -130,8 +117,8 @@ start?(
                 <div className="surveycontainer">
                 <Survey onCreate={this.handleCreate} onChange={this.nextq} qnum={num} />
 
-                이름 : {name}, 나이 : {age}, 성별 : {gender}, NUM : {num},
-                남친 : {namchin}, 락 : {rock}, 럭셔리 : {luxury}, 아메카지 : {ameca}, 캐쥬얼 : {casual}, 스트릿 : {street}
+                {/* 이름 : {name}, 나이 : {age}, 성별 : {gender}, NUM : {num},
+                남친 : {namchin}, 락 : {rock}, 럭셔리 : {luxury}, 아메카지 : {ameca}, 캐쥬얼 : {casual}, 스트릿 : {street}, 펑키 :{funky} */}
                 </div>
 ):
 

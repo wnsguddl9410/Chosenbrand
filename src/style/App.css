@@ -13,8 +13,16 @@
 }
 
 .qcontainer {
-  border: 9px solid;
+  border: 12px solid;
   height: 35vw;
   width: 70vw;
   border-radius: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .qcontainer {
+    border: 5px solid;
+    height: 70vh;
+    width: 90vw;
+    border-radius: 25px;
+  }
 }
