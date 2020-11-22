@@ -24,8 +24,8 @@ state={
     /*  
         블라인드파일즈 스틸휠즈 아이사피 퍼즈 라이풀
         MMIC 해피피플갤러리 차이나타운마켓 스   투시 예스아이씨 the museum visitor youthbath 
-        오베이 withlaugher addoff
-        반스 챔피온 나이키 
+        withlaugher addoff 피스마이너스원
+        오베이 반스 챔피온 나이키 
         벌스데이수트 마르지엘라 로맨틱크라운 아크네스튜디오 앤더슨벨 알렌느샵 리트
         랄프로렌 포터리 MNEME 론트 ATE studios 벨리에 아영상사 태우샵 애스파이벗 아트이프액츠 메종미네드
         캉골 와일드브릭스 스페로네 디그레 비슬로우

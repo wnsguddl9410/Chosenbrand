@@ -103,24 +103,24 @@ class surveyformat extends Component {
   //"쓸모없지만 재미를 선사해주는 선물", "갖고 싶은 걸 직접 물어봐서 구매한 선물"]    
     [
                 {namchin: 4, rock: 1, luxury: 3, ameca: 1, casual: 4, street:3, funky: 0},
-                {namchin: 3, rock: 4, luxury: 2, ameca: 4, casual: 3, street:4, funky: 3},
-                {namchin: 2, rock: 3, luxury: 2, ameca: 3, casual: 3, street:5, funky: 5},
-                {namchin: 2, rock: 2, luxury: 4, ameca: 2, casual: 3, street:1, funky: 2},
-    ],      //          82         83        87        81         89        88        83
+                {namchin: 3, rock: 4, luxury: 2, ameca: 4, casual: 2, street:4, funky: 3},
+                {namchin: 2, rock: 3, luxury: 2, ameca: 3, casual: 2, street:5, funky: 5},
+                {namchin: 2, rock: 2, luxury: 4, ameca: 2, casual: 2, street:1, funky: 2},
+    ],      //          82         83        87        81         86        88        83
 //"IS : 내향적 / 현실적", "IN : 내향적 / 직관적","EN : 외향적 / 직관적","ES : 외향적 / 현실적"],
       [
                 {namchin: 1, rock: 2, luxury: 1, ameca: 3, casual: 4, street:2, funky: 0},
                 {namchin: 3, rock: 5, luxury: 3, ameca: 3, casual: 1, street:2, funky: 4},
                 {namchin: 4, rock: 3, luxury: 4, ameca: 4, casual: 2, street:4, funky: 5},
-                {namchin: 3, rock: 0, luxury: 1, ameca: 3, casual: 3, street:4, funky: 1},
-    ],//                93        93         96        94        99         100       93 
+                {namchin: 3, rock: 0, luxury: 1, ameca: 3, casual: 3, street:3, funky: 1},
+    ],//                93        93         96        94        96         99       93 
 //"TJ : 합리적 / 계획적", "TP : 합리적 / 즉흥적","FJ : 감정적 / 계획적","FP : 감정적 / 즉흥적"],       
     [
                 {namchin: 3, rock: 1, luxury: 2, ameca: 1, casual: 3, street:1, funky: 0},
                 {namchin: 4, rock: 2, luxury: 3, ameca: 2, casual: 3, street:4, funky: 2},
                 {namchin: 2, rock: 3, luxury: 3, ameca: 4, casual: 3, street:2, funky: 3},
                 {namchin: 4, rock: 4, luxury: 4, ameca: 3, casual: 3, street:3, funky: 5},
-    ],//                 106      103        108       104       111        110       103
+    ],//                 106      103        108       104       108        109       103
 
               ];
 
