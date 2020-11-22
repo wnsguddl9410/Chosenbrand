@@ -113,7 +113,7 @@ start?(
              
                 </div>
 )
-:(num<9)?
+:(num<11)?
 (
             
                 <div className="surveycontainer">
