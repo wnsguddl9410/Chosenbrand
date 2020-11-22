@@ -158,7 +158,7 @@ showresult=()=>{
             { 
             (on)?
             (
-                <div className="noton" onClick={this.showresult}></div>
+                <div className="noton" onClick={this.showresult}><p>결과를 보려면 클릭하세요</p></div>
             )
                 :
             (<div className="Results">
