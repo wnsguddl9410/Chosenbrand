@@ -16,7 +16,7 @@ state={
 /*namchin*/ [{name:"훈훈한하고 다정다감한"},{name:"Tonywack"},{name:"Ami"},{name:"커버낫"},{name:"MMLG"},{name:"아이앱 스튜디오"},{name: "Acne Studios"}],
 /*rock*/    [{name:"벨리에"},{name:"시크하고 강렬한"},{name:"셀린느"},{name:"벌스데이수트"},{name:"withlaugher"},{name:"롤링 스튜디오"},{name: "XCX-Main"}], 
 /*luxury*/  [{name:"Gucci"},{name:"Saint Laurent"},{name:"고급스럽고 럭셔리한"},{name:"Needles"},{name:"Moschino"},{name:"Off-White"},{name: "Maison Margiela"}],
-/*ameca*/   [{name:"Polo Ralph Lauren"},{name:"ArtifActs"},{name:"Visvim"},{name:"푸근하고 지적인"},{name:"캉골"},{name:"비슬로우 퍼플"},{name: "농담"}],   //비즈빔 엔가 텐더로인
+/*ameca*/   [{name:"Polo Ralph Lauren"},{name:"Art if Acts"},{name:"Visvim"},{name:"푸근하고 지적인"},{name:"캉골"},{name:"비슬로우 퍼플"},{name: "농담"}],   //비즈빔 엔가 텐더로인
 /*casual*/  [{name:"무신사 스탠다드"},{name:"ZARA"},{name:"COS"},{name:"비슬로우 스탠다드"},{name:"편안하고 나대지않는"},{name:"휠라"},{name: "랩101"}],   
 /*street*/  [{name:"알렌느"},{name:"메종미네드"},{name:"BAPE"},{name:"블라인드파일즈"},{name:"LMC"},{name:"힙하고 트렌디한"},{name: "해피피플갤러리"}],    
 /*funky*/   [{name:"앤더슨벨"},{name: "Vivienne Westwood"},{name: "Martine Rose"},{name: "리트"},{name:"로맨틱크라운"},{name: "SKOOT APPAREL"},{name:"톡톡튀는 4차원의"}],
